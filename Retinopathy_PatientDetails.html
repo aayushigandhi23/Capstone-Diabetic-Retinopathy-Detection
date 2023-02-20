@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Patient Details</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+
+  <style>
+    .jumbotron{
+      background-color: rgb(64, 51, 141);
+      color: rgb(19, 17, 167);
+      font-family:'Alegreya Sans SC';font-size: 22px;
+      background-image: url(https://www.tutorialmines.net/wp-content/uploads/2018/11/bg.jpg);
+      background-position: 0% 25%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+      
+    }
+    
+    .navbar{
+      background-color: rgb(204, 223, 240);
+      padding: 5px;
+      float: none;
+      color: black;
+      
+    
+    }
+   
+    
+    </style>
+
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="jumbotron">
+        <h1>Welcome</h1>
+        <p>Patient Information</p> 
+        </div>  
+    </div>
+
+    <nav class="navbar nav-tabs nav-justified">
+        <div class="container-fluid" >
+          <div class="navbar-header">
+            <a class="navbar-brand" class="text-center" href="#">Please fill patient details</a>
+          </div>
+        </div>
+    </nav>
+    <form action="" style="width: 70%; margin: auto;">
+        <div class="form-group"><label for="name">Name</label>
+        <input type="text" name="name" id="name" class="form-control"></div>
+        <div class="form-group"><label for="age">Age</label>
+        <input type="number" name="age" id="age" class="form-control"></div>
+        <div class="form-group row form-check form-check-inline">
+            <label class="col-sm-2">Gender: </label>
+            <div class="col-sm-10">
+
+                <label class="radio-inline">
+                    <input type="radio" name="optradio">Male
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="optradio">Female
+                  </label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+        <label for="height">Height</label>
+        <input type="text" name="height" id="height" class="form-control" placeholder="In cm">
+        </div>
+        <div class="form-group">
+        <label for="weight">Weight</label>
+        <input type="text" name="weight" id="weight" class="form-control" placeholder="In kg">
+        </div>
+        
+        <label for="complaint">Chief complaints</label>
+        <input type="text" name="complaint" id="complaint" class="form-control">
+        <div class="form-check form-group">
+        <input type="checkbox" id="confirm" class="form-check-input">
+        <label for="confirm" class="form-check-label">Confirm details</label>
+    </div>
+    </form>
+     
+
+</body>
+
+</html>
